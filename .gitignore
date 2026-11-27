@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Environment & Secrets (NFR-02, NFR-11)
+.env
+.env.local
+.env.*.local
+
+# Uploads & Runtime Artifacts
+data/uploads/*
+!data/uploads/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+
+# Frontend (Node / Vite / React)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
